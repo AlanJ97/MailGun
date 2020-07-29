@@ -1,0 +1,7 @@
+ # response = requests.post(
+    #     "https://api.mailgun.net/v3/sandbox4c51efabdf6644a9923f750895bc25c7.mailgun.org/messages",
+    #     auth=("api", "9b1e4682a4a744f2bfb7ff9d42181c6e-a65173b1-e904236d"),
+    #     data={"from": "Excited User <mailgun@sandbox4c51efabdf6644a9923f750895bc25c7.mailgun.org>",
+    #           "to": ["bar@example.com", "YOU@sandbox4c51efabdf6644a9923f750895bc25c7.mailgun.org"],
+    #           "subject": "Hello",
+    #           "text": "Testing some Mailgun awesomness!"})
